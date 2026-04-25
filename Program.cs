@@ -1,7 +1,10 @@
+using Microsoft.EntityFrameworkCore;
+using MobileApi.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Bind to Render's assigned port in production, with a local fallback.
-builder.WebHost.UseUrls("http://0.0.0.0:" + (Environment.GetEnvironmentVariable("PORT") ?? "10000"));
+builder.Services.AddDbContext<AppDbContext>(opt =>
+    opt.UseInMemoryDatabase("PostDb"));
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -14,8 +17,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseAuthorization();
 
 app.MapControllers();
 

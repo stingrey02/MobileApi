@@ -31,3 +31,13 @@ C:\Users\Junre\MobileApi\obj\Debug\net8.0\refint\MobileApi.dll
 C:\Users\Junre\MobileApi\obj\Debug\net8.0\MobileApi.pdb
 C:\Users\Junre\MobileApi\obj\Debug\net8.0\MobileApi.genruntimeconfig.cache
 C:\Users\Junre\MobileApi\obj\Debug\net8.0\ref\MobileApi.dll
+C:\Users\Junre\MobileApi\obj\Debug\net8.0\MobileApi.sourcelink.json
+C:\Users\Junre\MobileApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Junre\MobileApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Junre\MobileApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Junre\MobileApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Junre\MobileApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Junre\MobileApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Junre\MobileApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Junre\MobileApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Junre\MobileApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
